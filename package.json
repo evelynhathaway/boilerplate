@@ -1,0 +1,43 @@
+{
+  "name": "boilerplate",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/evelynhathaway/boilerplate#readme",
+  "bugs": {
+    "url": "https://github.com/evelynhathaway/boilerplate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evelynhathaway/boilerplate.git"
+  },
+  "license": "MIT",
+  "author": "Evelyn Hathaway <npm@evelyn.dev> (https://evelyn.dev)",
+  "files": [
+    "/docs",
+    "/lib"
+  ],
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "/lib",
+    "doc": "/docs",
+    "test": "/test"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js ./",
+    "test": "mocha test --recursive"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^6.0.0",
+    "eslint-plugin-mocha": "^5.3.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-unicorn": "^9.1.1",
+    "mocha": "^6.1.4"
+  },
+  "engines": {
+    "node": "^10.0.0"
+  }
+}
