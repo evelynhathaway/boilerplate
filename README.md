@@ -30,15 +30,14 @@ npm install boilerplate
 
 1. Create a new GitHub repository
 
-```bash
-git commit --allow-empty -m "Chore: Initial noop commit"
-```
+	```bash
+	git commit --allow-empty -m "Chore: Initial noop commit"
+	```
 
 1. Copy the needed contents from this repo
 1. Replace `boilerplate` with `package-name` and `Boilerplate` with `Package Name`.
 1. Edit the `README.md` file
 1. Edit the `package.json` file
-1. Update the year in the `LICENSE` file
 
 ## License
 
