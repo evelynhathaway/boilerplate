@@ -7,7 +7,7 @@
 **GitHub repository and Node.js package boilerplate**
 
 [![npm version](https://badgen.net/npm/v/boilerplate?icon=npm)](https://www.npmjs.com/package/boilerplate)
-[![check status](https://badgen.net/github/checks/evelynhathaway/boilerplate/master?icon=github)](https://github.com/evelynhathaway/boilerplate/actions)
+[![check status](https://badgen.net/github/checks/evelynhathaway/boilerplate/main?icon=github)](https://github.com/evelynhathaway/boilerplate/actions)
 [![license: MIT](https://badgen.net/badge/license/MIT/blue)](/LICENSE)
 
 </div>
