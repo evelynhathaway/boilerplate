@@ -2,18 +2,25 @@ module.exports = {
 	"plugins": [
 		"evelyn",
 	],
+
 	"extends": [
 		"plugin:evelyn/default",
-		"plugin:evelyn/source",
 		"plugin:evelyn/node",
+		"plugin:evelyn/source",
 	],
+
+	"ignorePatterns": [
+		"lib",
+		"coverage",
+	],
+
 	"overrides": [
 		{
 			"files": [
-				"lib/**/*.js",
+				"**/*.ts",
 			],
 			"extends": [
-				"plugin:evelyn/built",
+				"plugin:evelyn/typescript",
 			],
 		},
 	],

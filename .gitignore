@@ -1,16 +1,19 @@
 # Node
-node_modules
+node_modules/
 
 # IDE
 \.idea/
 \.vscode/
 
-# Built files
-public/bundle\.js
-/build
-lib/
+# Built
+/dist
+/lib
+
+# Testing
+/coverage
 
 # Other
-/cache
+.cache
 /*.log
 *.lock
+.DS_Store
