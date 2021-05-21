@@ -2,7 +2,15 @@
 // https://jestjs.io/docs/en/configuration.html
 
 export default {
-	preset: "ts-jest",
+	preset: "ts-jest/presets/default-esm",
+	globals: {
+		"ts-jest": {
+			useESM: true,
+		},
+	},
+	moduleNameMapper: {
+		"(.*)\\.js$": ["$1"],
+	},
 	clearMocks: true,
 	collectCoverage: true,
 	collectCoverageFrom: [
