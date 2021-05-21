@@ -1,4 +1,4 @@
-import {feature} from "../";
+import {feature} from "../..";
 
 
 describe("feature", () => {

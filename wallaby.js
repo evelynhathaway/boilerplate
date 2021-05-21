@@ -1,4 +1,4 @@
-module.exports = function () {
+export default function config () {
 	return {
 		autoDetect: true,
 		hints: {
@@ -7,4 +7,4 @@ module.exports = function () {
 		reportConsoleErrorAsError: true,
 		lowCoverageThreshold: 99,
 	};
-};
+}

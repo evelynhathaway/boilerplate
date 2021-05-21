@@ -5,8 +5,6 @@ module.exports = {
 
 	"extends": [
 		"plugin:evelyn/default",
-		"plugin:evelyn/node",
-		"plugin:evelyn/source",
 	],
 
 	"ignorePatterns": [
