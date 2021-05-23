@@ -22,6 +22,8 @@
 	"typescript.format.insertSpaceAfterTypeAssertion": true,
 	"typescript.format.insertSpaceBeforeFunctionParenthesis": true,
 	"typescript.format.semicolons": "insert",
+	"typescript.preferences.importModuleSpecifier": "relative",
+	"typescript.preferences.quoteStyle": "double",
 	"typescript.tsdk": "node_modules\\typescript\\lib",
 	"versionlens.suggestions.showOnStartup": true,
 	"[javascript]": {
