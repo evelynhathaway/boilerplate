@@ -1,7 +1,7 @@
 {
 	"compilerOptions": {
-		"module": "es2020",
-		"target": "es2020",
+		"module": "Node16",
+		"target": "ES2022",
 		"lib": [
 			"dom",
 			"esnext"
@@ -9,12 +9,11 @@
 		"strict": true,
 		"esModuleInterop": true,
 		"outDir": "lib",
-		"moduleResolution": "node",
+		"moduleResolution": "node16",
 		"declaration": true,
 	},
 	"include": [
 		"src",
-		"config",
 	],
 	"exclude": [
 		"node_modules",
